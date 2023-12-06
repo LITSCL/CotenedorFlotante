@@ -1,0 +1,58 @@
+body {
+    background: rgba(204, 204, 204, 1)
+}
+
+header {
+    background: rgba(0, 153, 204, 1);
+    width: 1000px;
+    height: 128px;
+    margin: auto;
+    border-radius: 22px 22px 0px 0px;
+}
+
+nav {
+    background: rgba(0, 102, 255, 1);
+    width: 1000px;
+    height: 50px;
+    margin: auto;
+}
+
+#contenedor {
+    background: rgba(255, 255, 255, 1);
+    padding: 33px;
+    box-sizing: border-box;
+    height: 700px;
+    width: 1000px;
+    margin: auto;
+}
+
+.ventana {
+    background: rgba(0, 102, 255, 1);
+    width: 30%;
+    color: white;
+    font-family: Arial;
+    font-size: 18px;
+    text-align: center;
+    padding: 33px;
+    min-height: 250px;
+    border-radius: 22px;
+    position: absolute;
+    left: 33%;
+    top: 280px;
+    display: none;
+}
+
+#cerrar img {
+    width: 35px;
+    position: absolute;
+    left: 89%;
+    top: 3%;
+}
+
+footer {
+    background: rgba(0, 0, 0, 1);
+    width: 1000px;
+    height: 128px;
+    margin: auto;
+    border-radius: 0px 0px 22px 22px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header></header>
+
+    <nav></nav>
+
+    <section id="contenedor">
+        <a href="javascript:abrir()">ABRIR VENTANA</a>  
+    </section>
+
+    <div id="miVentana" class="ventana">
+        <div id="cerrar">
+            <a href="javascript:cerrar()"><img src="cerrar.png"></a>     
+        </div>
+        Bienvenidos a la página web
+    </div>
+
+    <footer></footer>
+
+    <script>
+        function abrir() {
+            document.getElementById("miVentana").style.display = "block";
+        }
+
+        function cerrar() {
+            document.getElementById("miVentana").style.display = "none";
+        }
+    </script>
+
+</body>
+</html>
